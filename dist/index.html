@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="result">
+        <div class="block">
+            <p>You : <span class="you-count">0</span></p>
+        </div>
+        <div class="block">
+            <p>Me : <span class="me-count">0</span></p>
+        </div>
+    </div>
+    <div class="board " id="board">
+        <div class="cell " data-cell></div>
+        <div class="cell " data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell"data-cell></div>
+        <div class="cell"data-cell></div>
+        <div class="cell"data-cell></div>
+        <div class="cell"data-cell></div>
+        <div class="cell"data-cell></div>
+        <div class="cell"data-cell></div>
+    </div>
+
+    <div class="winning-message   ">
+        <div id="winningMessage " data-winning-message-text>
+            
+        </div>
+
+        <button id="restartButton">Restart</button>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
